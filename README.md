@@ -51,11 +51,10 @@ pytest tests/ --cov-report html --cov
 ```
 
 ### 2. open htmlcov file to check coverage
-### 3. Some Extra test case has been added to make it more acurate(total 38 test case.)
+
+## Some Extra test case has been added to make it more acurate(total 38 test case.)
 
 ``
 *** my code coverage 99%.
-``
-``
 *** some other code has been edited for make this application more acurate and more operational.
 ``
