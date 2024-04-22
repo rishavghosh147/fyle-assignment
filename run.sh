@@ -13,7 +13,7 @@ export PYTHONDONTWRITEBYTECODE='1'
 export FLASK_APP=core/server.py
 
 #Remove previous database
-rm core/store.sqlite3
+# rm core/store.sqlite3
 
 # flask db init -d core/migrations/
 # flask db migrate -m "Initial migration." -d core/migrations/
