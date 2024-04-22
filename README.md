@@ -14,32 +14,33 @@
     docker-compose up
     ```
 
-    4. Application will run on port 7755.
+## 4. Application will run on port 7755.
 
 ### Method 2:
-    1. Clone the repository into your local machine using:
+
+## 1. Clone the repository into your local machine using:
 
     ```
     git clone https://github.com/rishavghosh147/fyle-assignment.git
     ```
 
-    2. Install all recurements(run in fyle-assignment folder):
+## 2. Install all recurements(run in fyle-assignment folder):
 
     ```
     pip3 install -r recurements.txt
     ```
 
-    3. Run server
+## 3. Run server
 
     ```
     bash run.sh
     ```
 
-    4. Application will run on port 7755.
+## 4. Application will run on port 7755.
 
-###Run Tests
+### Run Tests
 
-    1. Run this command in fyle-assignment folder
+## 1. Run this command in fyle-assignment folder
 
     ```
     export FLASK_APP=core/server.py
@@ -47,8 +48,8 @@
     flask db upgrade -d core/migrations/
     pytest tests/ --cov-report html --cov
     ```
-    2. open htmlcov file to check coverage
-    3. Some Extra test case has been added to make it more acurate(total 38 test case.)
+## 2. open htmlcov file to check coverage
+## 3. Some Extra test case has been added to make it more acurate(total 38 test case.)
 
 ``
 *** my code coverage 99%.
