@@ -1,4 +1,4 @@
-## Installation and Execution
+# Installation and Execution
 
 ## Method 1(using docker):
     
@@ -9,7 +9,7 @@ git clone https://github.com/rishavghosh147/fyle-assignment.git
 ```
    
 ### 2. For running the application on your local machine, please ensure that you have docker installed.
-### 3. Run the application using docker:
+### 3. Run the application using docker. (run it in fyle-assignment file):
 
 ```
 docker-compose up
@@ -52,7 +52,8 @@ pytest tests/ --cov-report html --cov
 
 ### 2. open htmlcov file to check coverage
 
-## Some Extra test case has been added to make it more acurate(total 38 test case.)
+## Some Extra test case has been added to make it more acurate.
+   (total 38 test case)
 
 ``
 *** my code coverage 99%.
